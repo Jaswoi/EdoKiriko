@@ -1,0 +1,170 @@
+:root{
+--school-blue: #000066;
+--school-bonyari: #fffaef;
+--school-orange: #dd5533;
+--school-pink: #f3e2ef;
+}
+@font-face{
+font-family: "TanukiMagic";
+src: url("fonts/TanukiMagic_1_22/TanukiMagic.ttf");
+font-weight: regular;
+font-style: nomal;
+}
+@font-face{
+font-family: "Tanugo-Regular";
+src: url("fonts/Tanugo_1_10/Tanugo-Regular.otf");
+font-weight: regular;
+font-style: nomal;
+}
+html{
+background: var(--school-bonyari);
+color: var(--school-blue);
+font-family: "TanukiMagic";
+font-size: 50px;
+overflow-x: hidden;
+padding: 0px;
+letter-spacing: 3px;
+line-height: 65px;
+}
+h1{
+color: var(--school-bonyari);
+font-size: 65px;
+font-family: "Tanugo-Regular";
+line-height: 75px;
+}
+h2{
+font-size: 80px;
+font-family: "Tanugo-Regular";
+padding: 0px 50px;
+}
+hr{
+border: 3px dashed var(--school-blue);
+padding: 10px;
+opacity: 0.4;
+}
+header{
+line-height: 15px;
+width: 100%;
+padding: 0px 80px;
+font-size: 50px;
+border-bottom: 8px solid var(--school-blue);
+}
+footer{
+width: 100%;
+text-align: center;
+border-top: 8px solid var(--school-orange);
+padding-top: 830px;
+}
+#first{
+height: 800px;
+padding: 10px 90px;
+background: rgba(30,20,10,0.6);
+color: var(--school-pink);
+font-size: 35px;
+line-height: 45px;
+}
+#first_out{
+width: 100%;
+background-image: url("river.jpg");
+background-size: cover;
+}
+#second{
+background: var(--school-bonyari);
+border-bottom: 50px ridge var(--school-orange);
+border-radius: 0px 0px 0px 90px;
+margin: 250px 0px;
+height: 900px;
+width: 100%;
+text-align: center;
+}
+#second_title{
+position: absolute;
+right: 0px;
+left: 0px;
+top: 40px;
+text-align: center;
+margin-top: 30px;
+}
+#second_out{
+height: 500px;
+width: 100%;
+background: var(--school-bonyari);
+color: var(--school-bule);
+border-radius: 250px;
+position: absolute;
+top: 800px;
+}
+p#second_title{
+padding: 68px;
+opacity: 0.6;
+font-size: 40px;
+}
+#next{
+margin-top: 20px;
+font-family: "Tanugo-Regular";
+font-size: 50px;
+height: 100px;
+width: 80%;
+border-radius: 40px;
+color: var(--school-blue);
+background-color: var(--school-bonyari);
+border: 3px dashed var(--school-blue);
+}
+#next:hover{
+cursor: pointer;
+color: var(--school-pink);
+background-color: var(--school-blue);
+}
+#third{
+display: none;
+width: 100%;
+height: 1600px;
+padding-top: 900px;
+background: var(--school-blue);
+color: var(--school-bonyari);
+flex-direction: column;
+}
+#third_title{
+margin: 0px auto;
+text-align: center;
+}
+ul{
+list-style: none;
+}
+li{
+padding: 100px;
+}
+li::before{
+content: "★";
+font-size: 200px;
+}
+#source{
+background: var(--school-orange);
+color: var(--school-pink);
+margin: 100px;
+margin-top: 0px;
+padding-top: 10px;
+border: 8px solid var(--school-blue);
+text-align: left;
+}
+#source>p{
+background: var(--school-blue);
+}
+h3{
+font-family: "Tanugo-Regular";
+color: var(--school-bonyari);
+font-size: 80px;
+text-align: center;
+}
+a{
+color: var(--school-blue);
+}
+a:hover{
+color: var(--school-pink);
+}
+#source>p>a{
+color: var(--school-pink);
+}
+#source>p>:hover{
+color: var(--school-bonyari);
+}
